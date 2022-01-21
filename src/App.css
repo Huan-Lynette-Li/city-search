@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+html {
+  margin-top: 0;
+}
+
+.center {
+  text-align: center;
+}
+.zipCode-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.zipCode-list li {
+  margin-right: 5px;
+}
+
+.zip-code-container {
+  width: 70%;
+  margin: auto;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+.input-getter-div {
+  margin-top: 50px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.header {
+  background-color: #000;
+  color: #fff;
+  margin-top: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  padding: 0;
+
+}
+
+.city-header {
+  background-color: #e9e9e9;
+  text-align: center;
+  padding: 5px;
+}
+
+.city-info {
+  width: 400px;
+  box-shadow: 1px 1px 3px #000;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.sub-heading {
+  text-align: center;
+}
+
+.cities-container h2 {
+  margin-top: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.cities-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+}
+
+.loader-container{
+  width: 100%;
+  height: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#input-box{
+  padding: 2.5rem auto;
+  width: 200px;
+  font-size: 1.2rem;
+}
+
+.heroku-message{
+  font-weight: 500;
+  text-align: center;
+}
